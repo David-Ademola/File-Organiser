@@ -39,13 +39,3 @@ for document in files:
 # Clearly the ability of this program depends largely on the
 # size of the dictionary 📚,and that's why I'm going to make it
 # open source 👨🏾‍💻 so you can add your own extensions to it.
-
-
-
-
-
-
-
-
-
-
