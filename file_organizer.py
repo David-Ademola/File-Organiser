@@ -6,14 +6,16 @@ import shutil
 # with extension name as keys 🔑 and folder name as values.
 extensions = {
     'exe': 'Applications',
-    'pdf': 'PDF\'s',
+    'ico': 'Icons',
     'mp3': 'Music',
-    'mp4': 'Movies',
+    'pdf': 'PDF\'s',
     'jpg': 'Pictures',
     'png': 'Pictures',
     'py': 'Python',
     'txt': 'Text Files',
+    'md': 'README\'s',
     'mkv': 'Videos',
+    'mp4': 'Videos',
     'js': 'JavaScript',
 }
 
@@ -34,7 +36,11 @@ for document in files:
             folder = extensions[extension]
             folder_path = os.path.join(current_directory, folder)
 
-            # TODO: Add an if statement to check if the folder already exists
-            os.mkdir(folder)
-            shutil.move(document, folder_path)
-            print(f'{document} was moved to folder {folder}')
+            if folder in os.listdir(os.getcwd()):
+                shutil.move(document, folder_path)
+                print(f'{document} was moved to folder {folder}')
+            else:
+                os.mkdir(folder)
+                print(f'{folder} folder was created.')
+                shutil.move(document, folder_path)
+                print(f'{document} was moved to {folder} folder.')
