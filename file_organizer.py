@@ -44,3 +44,5 @@ for document in files:
                 print(f'{folder} folder was created.')
                 shutil.move(document, folder_path)
                 print(f'{document} was moved to {folder} folder.')
+
+input('Press ENTER key to quit.')
