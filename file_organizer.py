@@ -12,6 +12,7 @@ extensions = {
     'jpg': 'Pictures',
     'png': 'Pictures',
     'py': 'Python',
+    'srt': 'Subtitles',
     'txt': 'Text Files',
     'md': 'README\'s',
     'mkv': 'Videos',
