@@ -7,6 +7,7 @@ import shutil
 extensions = {
     'exe': 'Applications',
     'doc': 'Documents',
+    'gif': 'Giphy\'s',
     'ico': 'Icons',
     'mp3': 'Music',
     'pdf': 'PDF\'s',
