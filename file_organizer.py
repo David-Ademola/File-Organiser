@@ -6,6 +6,7 @@ import shutil
 # with extension name as keys 🔑 and folder name as values.
 extensions = {
     'exe': 'Applications',
+    'doc': 'Documents',
     'ico': 'Icons',
     'mp3': 'Music',
     'pdf': 'PDF\'s',
