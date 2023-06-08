@@ -20,6 +20,7 @@ extensions = {
     'mkv': 'Videos',
     'mp4': 'Videos',
     'js': 'JavaScript',
+    'zip': 'Zip Files',
 }
 
 # Go through all the files 📄 in the current directory and
